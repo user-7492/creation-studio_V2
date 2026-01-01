@@ -57,7 +57,7 @@ export const generateImageWithGemini = async (
   try {
     // 🔴 核心修改 1：使用正确的模型名称 (gemini-2.0-flash-exp)
     // 🔴 核心修改 2：使用 /v1beta/ 接口，而不是 /v1/
-    const url = `${BASE_URL}/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${key}`;
+    const url = `${BASE_URL}/v1beta/models/gemini-3-pro-image-preview:generateContent?key=${key}`;
     
     console.log("Requesting URL:", url); // 方便调试
 
