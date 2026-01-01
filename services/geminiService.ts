@@ -85,7 +85,7 @@ export const generateImageWithGemini = async (
 
   try {
     // 3. 发起请求
-    const url = `${BASE_URL}/models/gemini-2.0-flash-preview-image-generation:generateContent?key=${key}`;
+    const url = `${BASE_URL}/models/gemini-2.0-flash-preview-image-generationmini-2.0-flash-preview-image-generation:generateContent?key=${key}`;
     
     const response = await fetch(url, {
       method: "POST",
