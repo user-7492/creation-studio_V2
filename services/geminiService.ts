@@ -116,7 +116,7 @@ export const generateImageWithGemini = async (
 
   try {
     // 3. 构建请求 URL (注意使用 v1beta)
-    const url = `${BASE_URL}/v1beta/models/imagen-3.0-generate-001:predict?key=${key}`;
+    const url = `${BASE_URL}/v1beta/models/gemini-3-pro-image-preview:predict?key=${key}`;
     console.log(`[Image] Requesting: ${url}`);
 
     const response = await fetch(url, {
